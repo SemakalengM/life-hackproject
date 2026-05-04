@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/scoreText"
+        android:textSize="22sp"
+        android:background="@color/teal_200"
+        android:hint="Score"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_height="140dp"
+        android:layout_width="140dp"
+        android:layout_marginTop="20dp"
+        android:background="#FF0000"
+        android:hint="results"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:id="@+id/resultText"/>
+
+    <Button
+        android:layout_height="80dp"
+        android:layout_width="160dp"
+        android:layout_marginTop="20dp"
+        android:background="#008000"
+        android:id="@+id/reviewBtn"
+        android:text="Review"/>
+
+</LinearLayout>
