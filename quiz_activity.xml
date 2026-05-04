@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="285dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/purple_200"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="160dp"
+        android:id="@+id/trueBtn"
+        android:text="True(Hack)"
+        android:textColor="@color/teal_700"
+        android:background="@drawable/ic_launcher_background"
+        android:layout_marginTop="60dp"
+        />
+
+    <Button
+        android:layout_height="60dp"
+        android:layout_width="160dp"
+        android:id="@+id/falseBtn"
+        android:text="False(Myth)"
+        android:textColor="@color/black"
+        android:layout_marginTop="25dp"
+        android:background="@color/teal_200"/>
+
+    <TextView
+        android:layout_height="90dp"
+        android:layout_width="90dp"
+        android:text="Feedback"
+        android:id="@+id/feedbackText"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="#FFDF00"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/nextBtn"
+        android:text="Next"
+        android:textColor="@color/black"
+        android:background="@color/purple_200"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
