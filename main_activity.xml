@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/purple_200"
+        android:backgroundTint="@color/purple_200"
+        android:text="life hack quiz"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:text="Do you know what is true, do you know what is myth?"
+        android:gravity="center"
+        android:background="#008000"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/startBtn"
+        android:text="Start Quiz"
+        android:textColor="@color/white"
+        android:background="#FF0000"
+        />
+
+</LinearLayout>
